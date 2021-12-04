@@ -1,0 +1,28 @@
+#phone-outline {
+    background-color: #444; 
+    margin: auto;
+    margin-top: 2.5vh;
+    height: 95vh;
+    width: 47vh;
+    border-radius: 20px;
+}
+
+#front-camera {
+    background-color: #222;
+    position: absolute;
+    height: 1.75vh;
+    width: 1.75vh;
+    border-radius: 3px;
+    top: 4vh;
+    left: 107vh;
+}
+
+#phone-screen {
+    background-color: #222;
+    position: absolute;
+    height: 88vh;
+    width: 43.5vh;
+    top: 6.5vh;
+    left: 87.5vh;
+    border-radius: 10px;
+}
