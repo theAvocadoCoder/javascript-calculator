@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import 'tailwindcss/tailwind.css';
+// import './Calculator.css';
+// import 'tailwindcss/tailwind.css';
 
 export default function Calculator() {
 
