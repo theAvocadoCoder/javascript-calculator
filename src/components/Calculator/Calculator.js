@@ -96,7 +96,7 @@ export default function Calculator() {
     };
 
     return (
-        <div id="calculator-grid" class="z-10 h-full w-full rounded-2xl overflow-hidden grid justify-center content-center grid-cols-4 grid-rows-5 -mt-2">
+        <div id="calculator-grid" class="z-10 h-full w-full rounded-2xl overflow-hidden grid justify-center content-center grid-cols-4 grid-rows-7 -mt-2">
             <div id="display" class="z-20 col-span-full row-span-2 bg-black bg-opacity-75 flex items-end justify-around p-1 flex-col break-words break-all">
                 <div data-previous-operand id="previous-operand" class="text-white opacity-75 text-xs">{getDisplayNumber(prevOperand)}</div>
                 <div data-current-operand id="current-operand" class="text-white text-base">{getDisplayNumber(currOperand)}</div>
